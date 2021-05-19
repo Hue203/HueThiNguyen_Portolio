@@ -38,16 +38,18 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
+                  {paragraphThree ||
+                    'A hardworking and respondsible logistic profestional with a 4 years proven track record for delivering unparalled result. Offers a diverse skillset ranging from import-export document creation to logistic goods scheduling and supply chain management .'}
+                </p>
+                <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    ' Results through teamwork, effectively collaborate, always looking for more efficient ways to serve customer Conduct and maintain good Communication with Production team and /or supplier to ensure all .'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Following my assion with techonogy, For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
