@@ -43,11 +43,11 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    ' Results through teamwork, effectively collaborate, always looking for more efficient ways to serve customer Conduct and maintain good Communication with Production team and /or supplier to ensure all .'}
+                    ' Results through teamwork, effectively collaborate, always looking for more efficient ways to serve customer .'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Following my assion with techonogy, For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
+                    'Following my passion with techonogy, For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
                 </p>
 
                 {resume && (

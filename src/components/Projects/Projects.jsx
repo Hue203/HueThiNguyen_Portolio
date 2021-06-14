@@ -41,13 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">
-                        {title || 'Project Project - IMDB'}
-                      </h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
                           {info ||
-                            '[ ] The user can see the top 20 "Currently Playing" movies on a page, the user can see the Movie Title, Year, Rating, and Poster, The user can see this information clearly on devices of various screen sizes, The user can see "more" movies by tapping a "See More" button at the bottom.'}
+                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>

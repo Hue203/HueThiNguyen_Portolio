@@ -29,28 +29,19 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Detox Box',
+    info: 'Detox Box is designed to be your online source for the best fruits, vegetable juices and smoothies to help your body detox on a daily basis',
     info2: '',
-    url: '',
+    url: 'https://detoxbox.netlify.app',
     repo: 'https://github.com/Hue203', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.png',
+    title: 'Movie Apps',
+    info: 'The user can see the top 20 "Currently Playing" movies on a page, the user can see the Movie Title, Year, Rating, and Poster, The user can see this information clearly on devices of various screen sizes, The user can see "more" movies by tapping a "See More" button at the bottom.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/Hue203', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    url: 'https://movie-app-hue.netlify.app',
     repo: 'https://github.com/Hue203', // if no repo, the button will not show up
   },
 ];
