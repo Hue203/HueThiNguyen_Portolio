@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Following my passion with techonogy, For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
+                    'Following my passion with technology , For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
                 </p>
 
                 {resume && (
