@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    'A hardworking and respondsible logistic profestional with a 4 years proven track record for delivering unparalled result. Offers a diverse skillset ranging from import-export document creation to logistic goods scheduling and supply chain management .'}
+                    'I am a person who’s always loved technology and have always enjoyed being creative and competitive.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Following my passion with technology , For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
+                    'Following my passion with technology. For me, the most attractive aspect of technology is problem solving. Problem solving is a challenge I have always love, and  to learing new things as always .'}
                 </p>
 
                 {resume && (

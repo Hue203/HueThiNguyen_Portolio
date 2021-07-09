@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, My name is',
   name: 'Hue',
-  subtitle: 'Im the Full Stack Developer',
+  subtitle: 'I am the Full Stack Developer',
   cta: 'Know more',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1SLl2hvzZXm3H3cvcgkLlBUkbUvZkZBft/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1XqMpV1tkJ5294pPOnNPqlywNCPPsXQIt/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -39,8 +39,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Movie Apps',
-    info: 'The user can see the top 20 "Currently Playing" movies on a page, the user can see the Movie Title, Year, Rating, and Poster, The user can see this information clearly on devices of various screen sizes, The user can see "more" movies by tapping a "See More" button at the bottom.',
-    info2: '',
+    info: 'The user can see the top 20 "Currently Playing" movies on a page, the user can see the Movie Title, Year, Rating, and Poster.',
+    info2:
+      'The user can see this information clearly on devices of various screen sizes, The user can see "more" movies by tapping a "See More" button at the bottom.',
     url: 'https://movie-app-hue.netlify.app',
     repo: 'https://github.com/Hue203', // if no repo, the button will not show up
   },
@@ -58,18 +59,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/feed/',
+      url: 'https://www.linkedin.com/in/hue-nguyen203/',
     },
     {
       id: nanoid(),
