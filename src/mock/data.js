@@ -33,17 +33,17 @@ export const projectsData = [
     info: 'Detox Box is designed to be your online source for the best fruits, vegetable juices and smoothies to help your body detox on a daily basis',
     info2: '',
     url: 'https://detoxbox.netlify.app',
-    repo: 'https://github.com/Hue203', // if no repo, the button will not show up
+    repo: 'https://github.com/Hue203/ecommerce-FE', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.png',
+    img: 'project2.1.png',
     title: 'Movie Apps',
     info: 'The user can see the top 20 "Currently Playing" movies on a page, the user can see the Movie Title, Year, Rating, and Poster.',
     info2:
       'The user can see this information clearly on devices of various screen sizes, The user can see "more" movies by tapping a "See More" button at the bottom.',
-    url: 'https://movie-app-hue.netlify.app',
-    repo: 'https://github.com/Hue203', // if no repo, the button will not show up
+    url: 'https://amazingprime.netlify.app/',
+    repo: 'https://github.com/Hue203/group2-AmazingPrimeMovie', // if no repo, the button will not show up
   },
 ];
 
