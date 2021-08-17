@@ -16,7 +16,15 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
+              <div className="contact-info">
+                {' '}
+                <p>Contact me through:</p>
+                <p>Email: huenguyenmt.vn@gmail.com</p>
+                <p>Phone : 0963 571 724</p>
+                <p>Or this lovely button</p>
+              </div>
             </p>
+
             <a
               target="_blank"
               rel="noopener noreferrer"

@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -37,10 +37,10 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
+                {/* <p className="about-wrapper__info-text">
                   {paragraphThree ||
                     'I am a person who’s always loved technology and have always enjoyed being creative and competitive.'}
-                </p>
+                </p> */}
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
                     ' Results through teamwork, effectively collaborate, always looking for more efficient ways to serve customer .'}
@@ -58,7 +58,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      My Resume Here
                     </a>
                   </span>
                 )}
