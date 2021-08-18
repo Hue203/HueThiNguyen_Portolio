@@ -17,13 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profilepic.jpg',
   paragraphOne:
-    'I am a person who’s always loved technology and have always enjoyed being creative and competitive. I possess a strong desire to learn new things and I belive a coding oulet allows me to flex my creativity, while being able to overcome challenges in a problem solving manner.',
+    'I am a person who has always loved technology and has always enjoyed being creative. I possess a strong desire to learn new things and I believe a coding oulet allows me to flex my creativity, while being able to overcome challenges in a problem solving manner.',
   paragraphTwo:
-    'From zero code, I have made many projects that filled with codes and features. As my bootcamp end, I am advancing my web developing journey by actively looking for an opportunity to work as a Junior Frontend/ Full-stack Web Developer.',
-  paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1XqMpV1tkJ5294pPOnNPqlywNCPPsXQIt/view?usp=sharing', // if no resume, the button will not show up
+    'As a fast learner, I have driven many projects that required utilizing indepth coding knowledge, to create responsive websites. With a passion for continued learning, and a desire to make meaningful contributions, I am actively looking for an opportunity to work as a Junior Front-end/ Full-stack Web Developer.',
+  paragraphThree: 'Technical Skills: JavaScript, NodeJs, ReactJs, MongoDb, Redux, ExpressJs',
+  resume: 'https://drive.google.com/file/d/1juAy36MtCH1lfk9xi083-2hwzcbt7GLC/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -40,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Detox Box',
+    title: 'DETOX BOX',
     info: 'Detox Box is designed to be your online source for the best fruits, vegetable juices and smoothies to help your body detox on a daily basis',
     info2: 'React, Redux-Thunk, MongoDB, NodeJs, ExpressJs',
     url: 'https://detoxbox.netlify.app',
@@ -49,7 +49,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.1.png',
-    title: 'Amazing Prime Movie Apps',
+    title: 'AMAZING PRIME MOVIES',
     info: 'A website that can display the most trending movies and TV shows with different categories ',
     info2: 'The layout is similar to Amazon prime official website.',
     url: 'https://amazingprime.netlify.app/',
