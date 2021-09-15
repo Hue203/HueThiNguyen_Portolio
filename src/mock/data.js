@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'As a fast learner, I have driven many projects that required utilizing indepth coding knowledge, to create responsive websites. With a passion for continued learning, and a desire to make meaningful contributions, I am actively looking for an opportunity to work as a Junior Front-end/ Full-stack Web Developer.',
   paragraphThree: 'Technical Skills: JavaScript, NodeJs, ReactJs, MongoDb, Redux, ExpressJs',
-  resume: 'https://drive.google.com/file/d/1juAy36MtCH1lfk9xi083-2hwzcbt7GLC/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1-FflM0rCegCSXqcVprexEkXcjSO8Hpum/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
